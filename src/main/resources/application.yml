@@ -6,6 +6,8 @@ spring:
       server:
         git:
           uri: https://github.com/ajadithya2348430/config-server
+  app:
+    name: Application
 
 server:
   port: 8888
