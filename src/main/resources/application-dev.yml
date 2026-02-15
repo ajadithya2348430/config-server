@@ -1,0 +1,12 @@
+application:
+  name: dev-environment-config-server
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ajadithya2348430/config-server
+
+server:
+  port: 8888
